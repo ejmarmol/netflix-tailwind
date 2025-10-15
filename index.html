@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="bg-[url(netflixbackground.jpg)]">
+    <header class="flex justify-between">
+        <div class="w-40 h-20 m-5">
+          <img src="Logonetflix.png">
+        </div>
+        <div class="flex flex-row content-between mt-5 mr-5">
+          <div class="border-2 border-white w-30 h-10 mr-5">
+            <button class="h-10 w-30 text-white">English</button>
+          </div>
+          <div class="w-30 h-10">
+            <button class="bg-red-500 h-10 w-20 text-white">Sign In</button>
+          </div>
+        </div>
+    </header>
+    <main>
+      <div class="flex flex-col items-center mt-40">
+        <h1 class="text-6xl text-white font-bold">Unlimited movies, tv shows, and more.</h1>
+        <h1 class="text-2xl text-white font-bold">Watch Anywhere, Cancel Anytime.</h1>
+      </div>
+      <div class="flex flex-col items-center mt-5">
+        <h1 class="text-3xl text-white font-bold">Ready to watch? Enter your email to create or restart your membership.</h1>
+      </div>
+      <div class="flex flex-row justify-center mt-5">
+        <input type="text" placeholder="Email address" class="bg-white w-100 h-15">
+        <button class="bg-red-500 h-15 w-40 text-white">Get Started</button>
+      </div>
+    </main>
   </body>
 </html>
